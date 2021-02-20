@@ -10,4 +10,11 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+  <view class="tab">
+    <ul>
+      <li bindtap='show'>js</li>
+      <li >css</li>
+      <li>html</li>
+    </ul>
+  </view>
 </view>

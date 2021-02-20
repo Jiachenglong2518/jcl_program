@@ -19,3 +19,24 @@
 .usermotto {
   margin-top: 200px;
 }
+.tab{
+  margin-top: 30px;
+}
+.tab li{
+  padding: 30rpx;
+  position: relative;
+}
+.tab li::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 1px;
+  background: red;
+  transition: 0.5s all linear;
+
+}
+.tab li:hover::before{
+  width:100%;
+}

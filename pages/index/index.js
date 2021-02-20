@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
+    motto: 'Hello World Jcl',
     name:'jcl',
     userInfo: {},
     hasUserInfo: false,
@@ -51,5 +51,10 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
-  }
+  },
+  show(){
+    this.setData({
+      'motto':'jcl'
+    })
+  },
 })
